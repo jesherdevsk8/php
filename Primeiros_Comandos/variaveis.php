@@ -15,6 +15,11 @@
             color: #00FA9A;
             text-shadow: 1px 1px 1px #000;
         }
+        h3 {
+            margin-left: 100px;
+            color: #ff0000;
+            text-shadow: 1px 1px 1px #000;
+        }
         p {
             margin-left: 100px;
             color: #00FA9A;
@@ -26,10 +31,15 @@
     <h1>Tipos de variaveis</h1>
 
     <?php
-        $num = 24;
+        $num = 27; 
         $nome = Jesher;
+        $num01 = 5;
+        $num02 = 3;
+        $result=$num01+$num02;
         
-            echo "<h2> Olá Mundo </h2> <p> Eu tenho $num e me chamo $nome </p>"
+            echo "<h2> Olá Mundo </h2> <p> Eu tenho $num anos e me chamo $nome </p>";
+            echo "<h3> A soma de $num01 + $num02 = $result </h3> ";
+        
     ?>
 
 </body>
