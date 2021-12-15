@@ -1,0 +1,23 @@
+show databases;
+
+status;
+
+create database teste;
+
+use teste;
+
+create table teste
+(
+  nome varchar(20),
+  sobrenome varchar(40),
+  sexo char(1)
+);
+
+create user jesher@localhost; ou
+create user jesher@localhost identified by '1234';
+
+select user from mysql.user;
+
+grant all on teste.* jesher@localhost;
+
+set password for 'jesher'@'localhost' = '123';
