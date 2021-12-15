@@ -8,16 +8,12 @@
     <title>Formulário</title>
 </head>
 <body>
-    
     <div>
-        <?php
-            $valor = $_GET["v"];
-            $raiz = sqrt($valor);
-            echo "A raiz de $valor é igual a ". number_format($raiz, 2);
-        ?>
-
-        <a href="index.html">voltar</a>
+        <form method="get" action="form.php">
+            Valor: <input type="number" name="v">
+            <input type="submit" value="Carcular Raiz">
+        </form>
     </div>
-
+    
 </body>
 </html>
