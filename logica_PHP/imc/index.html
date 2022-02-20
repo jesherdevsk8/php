@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC HTML</title>
+    <style>
+        body{
+            background-color: black;
+        }
+
+        label ,h1{
+            text-align: center;
+            color: burlywood;
+            margin-top: 300px;
+        }
+
+        .formulario{
+            text-align: center;
+        }
+
+        .btnCalc{
+            background-color: rgb(87, 65, 36);
+            color: #fff;
+            padding: 5px 10px;
+            font-size: 15px;
+            height: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cálculo de IMC</h1>
+    <form class="formulario" method="post" action="imc.php">
+        <label>Informe o peso  </label><input type="text" name="peso"><br><br>
+        <label>Informe a altura  </label><input type="text" name="altura"><br><br>
+        <input class="btnCalc" type="submit" value="Calcular">
+    </form>
+    
+</body>
+</html>
